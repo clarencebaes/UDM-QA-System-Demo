@@ -1,0 +1,23 @@
+# Keep the image small and avoid shipping local state onto the host.
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+_tmp_api_check.py
+experiments/
+**/__pycache__/
+*.log
+.env.*
+!.env.example
+!.env.production.example
+preview_operations.py
+
+data/
+ml/models/
+*.udmbackup
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key

@@ -1,0 +1,102 @@
+[
+  {
+    "value": "00-00-000",
+    "normalized": "00-00-000",
+    "valid": true
+  },
+  {
+    "value": "99-99-999",
+    "normalized": "99-99-999",
+    "valid": true
+  },
+  {
+    "value": "01-18-007",
+    "normalized": "01-18-007",
+    "valid": true
+  },
+  {
+    "value": "19-03-000",
+    "normalized": "19-03-000",
+    "valid": true
+  },
+  {
+    "value": "80-98-654",
+    "normalized": "80-98-654",
+    "valid": true
+  },
+  {
+    "value": " 01-18-007 ",
+    "normalized": "01-18-007",
+    "valid": true
+  },
+  {
+    "value": "",
+    "normalized": "",
+    "valid": false
+  },
+  {
+    "value": "01-18-00",
+    "normalized": "01-18-00",
+    "valid": false
+  },
+  {
+    "value": "01-18-0000",
+    "normalized": "01-18-0000",
+    "valid": false
+  },
+  {
+    "value": "1-18-007",
+    "normalized": "1-18-007",
+    "valid": false
+  },
+  {
+    "value": "01-1-007",
+    "normalized": "01-1-007",
+    "valid": false
+  },
+  {
+    "value": "001-18-007",
+    "normalized": "001-18-007",
+    "valid": false
+  },
+  {
+    "value": "0118007",
+    "normalized": "0118007",
+    "valid": false
+  },
+  {
+    "value": "200118007",
+    "normalized": "200118007",
+    "valid": false
+  },
+  {
+    "value": "ab-cd-efg",
+    "normalized": "ab-cd-efg",
+    "valid": false
+  },
+  {
+    "value": "01/18/007",
+    "normalized": "01/18/007",
+    "valid": false
+  },
+  {
+    "value": "01 -18-007",
+    "normalized": "01 -18-007",
+    "valid": false
+  },
+  {
+    "value": "01-18-007x",
+    "normalized": "01-18-007x",
+    "valid": false
+  },
+  {
+    "value": "\u0660\u0661-\u0661\u0668-\u0660\u0660\u0667",
+    "normalized": "\u0660\u0661-\u0661\u0668-\u0660\u0660\u0667",
+    "valid": false
+  },
+  {
+    "value": "\uff10\uff11-\uff11\uff18-\uff10\uff10\uff17",
+    "normalized": "\uff10\uff11-\uff11\uff18-\uff10\uff10\uff17",
+    "valid": false
+  }
+]

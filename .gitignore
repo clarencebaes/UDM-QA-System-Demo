@@ -1,0 +1,57 @@
+# Python
+backend/.venv/
+backend/**/__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets — never commit the real .env files
+backend/.env
+backend/.env.live
+frontend/.env
+frontend/.env.development
+frontend/.env.*.local
+# frontend/.env.example IS safe to commit (template only)
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.cursor/
+
+# Tool / workspace state and local junk — never commit
+.freebuff/
+.kilo/
+.qodo/
+backend/_tmp_*.py
+backup_before_wipe.sql
+t2.txt
+
+# Provisional survey annotations and experiment backups stay local
+backend/experiments/
+.local-artifacts/
+
+# Keep application data and generated artifacts local
+.env
+.env.*
+!.env.example
+!.env.production.example
+*.sqlite
+*.sqlite3
+*.db
+*.udmbackup
+*.pem
+*.key
+backend/data/*
+backend/ml/models/*
+docs/model-evaluation.txt
+docs/polarity-v4-evaluation.json
+output/
+tmp/
+*.csv
+*.sql
+!/database/schema.sql
+!/database/storage_diagnostics.sql
