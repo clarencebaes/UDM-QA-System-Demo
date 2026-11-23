@@ -1,8 +1,17 @@
 # UDM QA System
 
-The UDM QA System is a capstone application for Universidad de Manila. It includes the student survey, protected receipts, concern reporting, and a role-based QA workspace for feedback, multilingual sentiment and aspect analysis, interventions, reporting, audit history, and backup and restore.
+## About the system
 
-The demo starts without student accounts or identifiers, survey responses, ratings, comments, previous surveys, or QA history. Startup creates the database schema, application reference tables, and the first staff sign-in. The models train on invented examples and their predictions may differ from those in the university installation.
+The UDM QA System helps Universidad de Manila's Quality Assurance office collect student evaluations of campus facilities and services, identify recurring concerns, and track what the university does in response. It supports the workflow from opening a survey to reviewing feedback and documenting a completed improvement action.
+
+- **Students** complete a scheduled survey, rate the service areas that apply to them, leave optional comments, and receive a protected submission receipt. They can also report difficulties with the survey.
+- **QA staff** review ratings and written feedback in dashboards and reports. The system groups comments by sentiment and topic and supports English, Filipino, and Taglish feedback.
+- **QA administrators and directors** manage survey cycles and staff access, review intervention suggestions based on recurring feedback, and track actions from draft through approval and completion. The system also supports audit history, backups, and recovery.
+
+## About this demo
+
+A fresh installation creates the service-area catalog and the first staff account. The survey, student, and QA history tables start empty. The demo's classifiers train on invented examples, so their predictions may differ from those in the university installation.
+
 
 ## Start the backend
 
