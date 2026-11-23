@@ -1,5 +1,7 @@
 # UDM QA System
 
+![Student Facility Evaluation survey homepage](.github/screenshots/survey-home.png)
+
 ## About the system
 
 The UDM QA System helps Universidad de Manila's Quality Assurance office collect student evaluations of campus facilities and services, identify recurring concerns, and track what the university does in response. It supports the workflow from opening a survey to reviewing feedback and documenting a completed improvement action.
